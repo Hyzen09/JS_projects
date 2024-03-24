@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet" />
+
+</head>
+
+<body>
+    <main>
+        <nav>
+            <div id="button1">
+                <div id="backward"></div>
+                <div id="forward"></div>
+            </div>
+            <div id="img1">
+
+            </div>
+            <h1>Playlist Name</h1>
+        </nav>
+        <div class="contener" >
+            <div id="Songs" >
+
+            </div>
+        </div>
+
+        <footer>
+            <div id="right" class="sections">
+                <img src="https://images.unsplash.com/photo-1621535484902-f946de404eb4?q=80&w=1886&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    alt="">
+                <div id="names">
+                    <h1 id="songName"></h1>
+                    <p id="artistName"></p>
+                </div>
+            </div>
+            <div id="mid" class="sections">
+                <div id="symbol">
+                    <i class="ri-skip-back-fill"></i>
+                    <div id="play">
+                        <i id="ctrlIcon" class="ri-play-fill"></i>
+                    </div>
+                    <i class="ri-skip-forward-fill"></i>
+                </div>
+                <div id="bar">
+                    <div class="changingTime" style="color: white;">2</div>
+                    <input class="music_slider" id="music_slider" type="range" max="100" min="0" value="0">
+                    <div id="Bchangingtime">
+                        <span style="color: white; margin-left: 10px;" class="songDuration"></span>
+                    </div>
+                </div>
+            </div>
+            <div id="left" class="sections">
+                <div class="volume">
+                    <i class="ri-megaphone-line "></i>
+                    <input type="range" min="0" value="100" class="volumeslider" id="volumeslider" style="cursor: pointer;">
+                </div>
+            </div>
+
+        </footer>
+    </main>
+    <div id="play_audio">
+        <audio id="audioPlayer"></audio>
+    </div>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

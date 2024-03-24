@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  /* background-color: #181818; */
+}
+nav {
+  height: 20vh;
+  width: 100%;
+  background-color: #d9d9d9;
+  padding: 16px 50px;
+  display: flex;
+}
+nav h1 {
+  padding-top: 30px;
+  padding-left: 19px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+}
+#img1 {
+  height: 15vh;
+  width: 15vh;
+  background-color: #fff;
+}
+.contener {
+  height: 70vh;
+  background-color: #bfc0bf;
+  padding-top: 36px;
+  padding-left: 70px;
+  overflow-y: scroll;
+}
+#Songs {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.Card_img {
+  width: 50px;
+  height: 50px;
+  /* border: #b52d2d 1px solid; */
+  /* margin-right: 15px; */
+  /* margin-left: 87px; */
+  /* border-radius: 10px; */
+}
+
+.Card_img img {
+  width: 50px;
+  height: 50px;
+  border-radius: 33px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  height: 8vh;
+  width: 70vw;
+  background-color: #4b4b4b;
+  padding: 5px 17px;
+  cursor: pointer;
+}
+.card h3 {
+  margin-left: 15px;
+  /* background-color: #fff; */
+  margin-right: 55px;
+}
+.mid {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  /* background-color: #ce5f5f; */
+  padding: 20px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 90%;
+}
+.duration {
+  color: #fff;
+}
+.mid h1 {
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.mid h2 {
+  font-size: 10px;
+  font-weight: 200;
+  color: white;
+}
+.card h3 {
+  justify-self: end;
+  font-size: 15.4px;
+  color: white;
+}
+
+footer {
+  /* display: absolute; */
+  position: fixed;
+  display: flex;
+  top: 90%;
+  height: 125px;
+  width: 100%;
+  justify-content: space-evenly;
+  background-color: #fff;
+}
+.sections {
+  height: 10vh;
+  /* width: 33.33333%; */
+  background-color: #010101;
+}
+#right {
+  display: flex;
+  align-items: center;
+  padding: 10px 10px;
+  gap: 14px;
+  width: 30.5%;
+}
+#right img {
+  height: 55px;
+  width: 55px;
+  border-radius: 5px;
+}
+#names {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#names h1 {
+  font-size: 18px;
+}
+#names p {
+  font-size: 13px;
+}
+#mid {
+  display: flex;
+  width: 60%;
+  flex-direction: column;
+  align-items: center;
+}
+#symbol {
+  color: #fff;
+  /* background-color: rgb(54, 49, 43); */
+  display: flex;
+  height: 55%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  gap: 15px;
+  margin-top: 5px;
+}
+#play {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translate(-50 -50);
+}
+#bar {
+  /* background-color: #fff; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 552px;
+}
+#changintTime {
+  width: 20px;
+}
+#Bchangingtime {
+  width: 30px;
+}
+.music_slider {
+  height: auto;
+  /* margin-top: 15px; */
+  width: 552px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-color: #ffffff;
+  border-radius: 50px;
+  width: 100%;
+  margin-bottom: 3px;
+  cursor: pointer;
+}
+.music_slider::-webkit-slider-thumb {
+  border-radius: 50%;
+  background-color: #ff0000;
+}
+#left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  width: 30.5%;
+}
+
+
